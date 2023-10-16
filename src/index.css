@@ -1,13 +1,92 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+  background: pink;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 2px;
+  margin-left:1px;
+  margin-right:1px;
+  margin-bottom:1px;
+  }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+  .titulo {
+  text-align: center;
+  padding: 20px;
+  font-size: 40px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+  "Lucida Sans", Arial, sans-serif;
+  }
+
+  .subt {
+  text-align: center;
+  font-family: monospace;
+  font-size: 25px;
+  }
+
+  .creadores{
+  text-align: center;
+  font-size: 15px;
+  }
+
+  hr {
+  color: black;
+  background-color: black;
+  height: 2px;
+  }
+
+  .uno{
+  background-color: rgb(236, 15, 52);
+  color:black;
+  padding:10px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  
+  .ver {
+  margin: 8px;
+  }
+
+  .texto {
+  margin: 50px;
+  padding: 15px;
+  box-shadow: 5px 5px 5px 5px;
+  }
+  
+  .btnsucces {
+    border-radius: 10px;
+    font-size: 16px;
+    width: 110px;
+    height: 30px;
+    }
+    
+    .dos{
+    background-color: rgb(236, 15, 52);
+    height: 60px;
+    display: right;
+    height: 47px;
+    }
+
+    ul{
+    float: right;
+    list-style-type: none;
+    align-items: center;
+    font-size: 17px;
+    margin-top: 10px;
+    }
+
+    li{
+    display: inline;
+    margin: 3px;
+    font-size: 15px;
+    }
+    
+    li a{
+    padding: 2px 7px 2px 7px;
+    color: black;
+    border: 1px solid rgb(250, 133, 150);
+    border-radius: 5px;
+    }
+    
+    li a:hover{
+    background-color:rgb(245, 146, 162);
+    }
+    

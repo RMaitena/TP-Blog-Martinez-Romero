@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import './index.css';
+import Encabezado from "./Encabezado";
+import Menu from "./Menu";
+import Hr from "./Hr";
+import Post from './Post';
+import Navegador from './Navegador';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+export default function App() {
+return (
+<div className="App">
+<Navegador/>
+<Encabezado/>
+<div className="posteos">
+<Post titulo='SOY UN TITULO'/>
+<Post/>
+<Post/>
+<Post/>
+</div>
+<Hr/>
+<Menu/>
+</div>
+);
 }
 
-export default App;
