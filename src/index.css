@@ -26,12 +26,6 @@ body {
   font-size: 15px;
   }
 
-  hr {
-  color: black;
-  background-color: black;
-  height: 2px;
-  }
-
   .uno{
   background-color: rgb(236, 15, 52);
   color:black;
@@ -89,4 +83,10 @@ body {
     li a:hover{
     background-color:rgb(245, 146, 162);
     }
-    
+
+    hr {
+      color: black;
+      background-color: black;
+      height: 2px;
+      }
+      

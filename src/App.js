@@ -1,7 +1,6 @@
 import './index.css';
 import Encabezado from "./Encabezado";
 import Menu from "./Menu";
-import Hr from "./Hr";
 import Post from './Post';
 import Navegador from './Navegador';
 
@@ -17,9 +16,7 @@ return (
 <Post/>
 <Post/>
 </div>
-<Hr/>
 <Menu/>
 </div>
 );
 }
-
