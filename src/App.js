@@ -11,7 +11,7 @@ return (
 <Navegador/>
 <Encabezado/>
 <div className="posteos">
-<Post titulo='SOY UN TITULO'/>
+<Post titulo='El sapito pepe' descripcion='Salta y salta sin parar'/>
 <Post/>
 <Post/>
 <Post/>

@@ -4,7 +4,7 @@ function Post(props) {
 return (
 <div className='texto'>
 <h3>{props.titulo}</h3>
-<p>{props.descipcion} </p>
+<p>{props.descripcion}</p>
 <button className='coment'>Comentar</button>
 <h6 className='ver'>Ver comentarios</h6>
 </div>
