@@ -73,14 +73,14 @@ body {
     font-size: 15px;
     }
     
-    li a{
+    .boton a{
     padding: 2px 7px 2px 7px;
     color: black;
     border: 1px solid rgb(250, 133, 150);
     border-radius: 5px;
     }
     
-    li a:hover{
+    .boton a:hover{
     background-color:rgb(245, 146, 162);
     }
 

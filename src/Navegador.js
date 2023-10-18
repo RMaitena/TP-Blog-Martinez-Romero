@@ -1,16 +1,17 @@
 import React from "react";
+import {BrowserRouter, Link} from 'react-router-dom';
 
-function Navegador(props) {
+function Navegador() {
 return (
-<div>
+<BrowserRouter>
   <nav className="dos">
    <ul>
-    <li><a href="/inicio">Home</a></li>
-    <li><a href="/admin">Admin</a></li>
-    <li><button className="btnsucces">New Post!!</button></li>
+    <li className="boton"><Link to="/inicio" >Home</Link></li>
+    <li className="boton"><Link to="/admin">Admin</Link></li>
+    <li><Link to="/NewPost"><button className="btnsucces">New Post!!</button></Link></li>
   </ul>
  </nav>
-</div>
+</BrowserRouter>
 );
 }
 export default Navegador;

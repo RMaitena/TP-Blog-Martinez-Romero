@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Post(props) {
+function Post (props) {
 return (
 <div className='texto'>
 <h3>{props.titulo}</h3>
