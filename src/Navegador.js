@@ -8,8 +8,7 @@ return (
    <ul>
     <li className="boton"><Link to="/inicio" >Home</Link></li>
     <li className="boton"><Link to="/admin">Admin</Link></li>
-    <li><Link to="/NewPost"><button className="btnsucces">New Post!!</button></Link></li>
-  </ul>
+    </ul>
  </nav>
 </BrowserRouter>
 );
