@@ -5,9 +5,9 @@ return (
     <div> 
         <hr/>
     <nav className='uno'>
-    <a>Acerca de</a>
-    <a>Servicio de consultas</a>
-    <a>Conocenos un poco mas</a>
+    <a href="/AcercaDe">Acerca de</a>
+    <a href="/Consultas">Servicio de consultas</a>
+    <a href="/Conocenos">Conocenos un poco mas</a>
     </nav>
     </div>
 
