@@ -70,7 +70,7 @@ body {
     li{
     display: inline;
     margin: 3px;
-    font-size: 15px;
+    font-size: 16px;
     }
     
     .boton a{
@@ -90,3 +90,12 @@ body {
       height: 2px;
       }
       
+    .uno a{
+    padding: 2px 7px 2px 7px;
+    color: black;
+    border-radius: 5px;
+    }
+
+    .uno a:hover{
+      background-color:rgb(245, 146, 162);
+    }
